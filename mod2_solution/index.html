@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>mod2_solution</title>
+<style>
+	* {
+		box-sizing: border-box;
+	}
+	h1 {
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: center;
+	}
+	h2 { 
+        font-family: Arial, Helvetica, sans-serif;
+	    border: 1px solid black;
+	}
+	}
+	p {
+		font-family: Arial, Helvetica, sans-serif;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.chicken {
+		background-color: #FFB833;
+		padding: 5px;
+		width: 110px;
+	}
+	.beef {
+		background-color: #C92A11;
+		padding: 5px;
+		width: 110px;
+	}
+	.sushi {
+		background-color: #169E54;
+		padding: 5px;
+		width: 110px;
+	}
+	.row {
+		width: 100%;
+	}
+	
+	@media (min-width: 992px) {
+		#chicken {
+			float: left;
+			width: 33%;
+			height: 250px;
+			border: 1px solid black;
+			background-color: #BDB9B9;
+		}
+		#beef {
+			float: left;
+			width: 33%;
+			height: 250px;
+			border: 1px solid black;
+			background-color: #BDB9B9;
+		}
+		#sushi {
+			float: left;
+			width: 33%;
+			height: 250px;
+			border: 1px solid black;
+			background-color: #BDB9B9;
+		}
+	}
+	@media (min-width: 768px) and (max-width: 991px) {
+		#chicken {
+			float: left;
+			width: 50%;
+			padding: 10px;
+			height: 250px;
+			border: 1px solid black;
+			background-color: #BDB9B9;
+		}
+		#beef {
+			float: left;
+			width: 50%;
+			padding: 10px;
+			height: 250px;
+			border: 1px solid black;
+			background-color: #BDB9B9;
+		}
+		#sushi {
+			float: left;
+			width: 100%;
+			margin-top: 25px;
+			height: 250px;
+			border: 1px solid black;
+			background-color: #BDB9B9;
+		}
+	}
+	@media (max-width: 767px) {
+		#chicken {
+			float: left;
+			width: 100%;
+			border: 1px solid black;
+			background-color: #BDB9B9;
+		}
+		#beef {
+			float: left;
+			width: 100%;
+			margin-top: 25px;
+			border: 1px solid black;
+			background-color: #BDB9B9;
+		}
+		#sushi {
+			float: left;
+			width: 100%;
+			margin-top: 25px;
+			border: 1px solid black;
+			background-color: #BDB9B9;
+		}
+	}
+</style>
+</head>
+<body>
+<h1>Our Menu</h1>
+
+<div class="row">
+	<div id="chicken">
+		<h2 class="chicken">Chicken</h2>
+		<p> A lemon-herb marinated boneless breast of chicken, grilled for a tender and juicy backyard-smokey taste, served on a toasted Multigrain Brioche bun with Colby-Jack cheese, applewood smoked bacon, Green Leaf lettuce and tomato. Served with Honey Roasted BBQ Sauce. Available with Gluten-free bun for an additional cost.</p></div>
+	<div id="beef">
+		<h2 class="beef">Beef</h2>
+		<p> Mouthwatering perfection starts with two 100% pure beef patties and Big Mac sauce sandwiched between a sesame seed bun. It’s topped off with pickles, crisp shredded lettuce, finely chopped onion and American cheese for a 100% beef burger with a taste like no other. It contains no artificial flavors, preservatives or added colors from artificial sources. Our pickle contains an artificial preservative, so skip it if you like</p></div>
+	<div id="sushi">
+		<h2 class="sushi">Sushi</h2>
+		<p> Combination of sushi rolls and 
+		nigiri (fish on rice)
+		68 pieces | $245
+		two of each of the following rolls &
+		6 pieces of each nigiri:
+		california roll
+		crunch roll
+		shrimp tempura roll
+		spicy tuna roll
+		add a bottle of house sake for
+		special price or henriot
+		champagne for special price
+		maguro nigiri (tuna)
+		hamachi nigiri (yellowtail)
+		sake nigiri (salmon)</p></div>
+</div>
+
+</body>
+</html>
